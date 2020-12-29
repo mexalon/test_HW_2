@@ -36,7 +36,7 @@ class YaUploader:
 
 
 if __name__ == '__main__':
-    TOKEN = 'AgAAAABJ1oijAADLW8wuXOSlQ0MCkKPvZwkNXu0'
+    TOKEN = '*********************************'
     source_file = 'iCdeIdjeZ2o.jpg'
     target_folder = 'my_target_folder'
     uploader = YaUploader(TOKEN)
