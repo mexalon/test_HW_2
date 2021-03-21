@@ -34,7 +34,7 @@ class YaUploader:
         response = requests.put('https://cloud-api.yandex.net/v1/disk/resources/',
                                 headers={'Authorization': f'OAuth {self.token}'},
                                 params={'path': dir_name})
-        sleep(0.5)
+        sleep(1)
         code = {response.reason: response.status_code}
         return code
 
@@ -44,7 +44,7 @@ class YaUploader:
                                 headers={'Authorization': f'OAuth {self.token}'},
                                 params={'path': dir_name})
 
-        sleep(0.5)
+        sleep(1)
         code = {response.reason: response.status_code}
         return code
 
@@ -54,7 +54,7 @@ class YaUploader:
                                 headers={'Authorization': f'OAuth {self.token}'},
                                 params={'path': dir_name})
 
-        sleep(0.5)
+        sleep(1)
         code = {response.reason: response.status_code}
         return code
 
